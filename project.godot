@@ -20,8 +20,12 @@ Dialogic="*uid://ds2q0uclmolvu"
 
 [dialogic]
 
-directories/dch_directory={}
-directories/dtl_directory={}
+directories/dch_directory={
+"federico": "res://characters/federico.dch"
+}
+directories/dtl_directory={
+"test_dialogo": "res://timelines/test_dialogo.dtl"
+}
 layout/style_directory={}
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01
