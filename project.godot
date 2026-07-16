@@ -21,7 +21,8 @@ Dialogic="*uid://ds2q0uclmolvu"
 [dialogic]
 
 directories/dch_directory={
-"federico": "res://characters/federico.dch"
+"federico": "res://characters/federico.dch",
+"matija": "res://characters/matija.dch"
 }
 directories/dtl_directory={
 "test_dialogo": "res://timelines/test_dialogo.dtl"
@@ -60,6 +61,10 @@ audio/channel_defaults={
 "volume": 0.0
 }
 }
+variables={}
+layout/style_list=[]
+layout/default_style="Default"
+glossary/default_case_sensitive=true
 
 [display]
 
