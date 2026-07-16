@@ -1,11 +1,21 @@
 join federico center
-federico: Hello world!
 join matija center
+federico: Hello world!
 matija: Sei ghei?
-join federico center
-join federico center
 federico: ...
 - Ooooh sì!
 	federico: Ooooh sì!
+	matija: Bleah che schifo!
+	matija: Sei sicuro?
+	federico: ...
+	- Sì
+		federico: Sì
+	- Assolutamente sì
+		federico: Assolutamente sì
+	label birra
+	matija: ... ti va una birra?
 - Sì, mi piace proprio tanto il cazzo!
 	federico: Sì, mi piace proprio tanto il cazzo!
+	matija: Oh mamma!
+	jump birra
+federico: Ok
