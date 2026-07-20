@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://cn2ft0573ils7"]
 
 [ext_resource type="Script" uid="uid://c8nump2x6e522" path="res://game_logic.gd" id="1_iwuvy"]
+[ext_resource type="Script" uid="uid://cr53nn10gb8l8" path="res://scenes/matija.gd" id="2_rmpsm"]
+[ext_resource type="Script" uid="uid://baqnfpnxnhrj1" path="res://scenes/federico.gd" id="3_lrq2g"]
 
 [node name="Stanza1" type="Node2D" unique_id=1579790565]
 
@@ -10,3 +12,27 @@ offset_bottom = 648.0
 
 [node name="GameLogic" type="Node" parent="." unique_id=678991252]
 script = ExtResource("1_iwuvy")
+
+[node name="Matija" type="Node2D" parent="." unique_id=728487563]
+position = Vector2(800, 400)
+script = ExtResource("2_rmpsm")
+
+[node name="Label" type="Label" parent="Matija" unique_id=1735112998]
+offset_left = -30.0
+offset_top = 60.0
+offset_right = 19.0
+offset_bottom = 83.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+text = "[M]"
+
+[node name="Federico" type="Node2D" parent="." unique_id=173922849]
+position = Vector2(350, 400)
+script = ExtResource("3_lrq2g")
+
+[node name="Label" type="Label" parent="Federico" unique_id=1187885467]
+offset_left = -30.0
+offset_top = 60.0
+offset_right = 37.0
+offset_bottom = 83.0
+text = "[F]"
